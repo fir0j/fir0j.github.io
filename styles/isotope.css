@@ -106,6 +106,8 @@ body {
   /* background-color: var(--darkBlue); */
   border: 1px solid var(--greenish);
   margin: 3px;
+  display: flex;
+  justify-content: center;
 }
 
 .imageDiv {
@@ -206,6 +208,7 @@ body {
     justify-content: center;
   }
 
+  /* center div last option */
   .title {
     left: 50%;
     right: 50%;
