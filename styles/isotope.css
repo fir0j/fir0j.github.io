@@ -202,15 +202,18 @@ body {
 @media only screen and (max-width: 600px) {
 
 
-  .element-item {
+  .element-item2 {
     width: 98%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+  }
+
+  .element-item {
+    margin-left: 12.5%;
   }
 
   /* center div last option */
-  .title {
+  .title2 {
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
@@ -226,7 +229,7 @@ body {
 
   .button-group > button {
     height: 40px;
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
 }
