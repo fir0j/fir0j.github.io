@@ -202,8 +202,8 @@ body {
 @media only screen and (max-width: 600px) {
 
 
-  .element-item {
-    width: 94%;
+  .element-item2 {
+    width: 98%;
     display: flex;
     justify-content: center;
   }
@@ -213,7 +213,7 @@ body {
   }
 
   /* center div last option */
-  .title {
+  .title2 {
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
