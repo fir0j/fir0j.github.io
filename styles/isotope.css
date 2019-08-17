@@ -206,6 +206,7 @@ body {
     width: 98%;
     display: flex;
     justify-content: center;
+    margin-top: 100px;
   }
 
   /* center div last option */
@@ -215,6 +216,17 @@ body {
     transform: translate(-50%, -50%);
     margin-top: 60px;
 
+  }
+
+  .button-group{
+    width:90%;
+    margin-left: 5%;
+
+  }
+
+  .button-group > button {
+    height: 40px;
+    font-size: 0.7em;
   }
 
 }
