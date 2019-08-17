@@ -1,0 +1,211 @@
+
+:root {
+  --greenish: #0fb9b1;
+  --darkBlue: #00344e;
+}
+
+.outline {
+  outline: 3px solid red;
+}
+
+.borderGreen {
+  border: 2px solid green;
+}
+
+.borderBlue {
+  border: 2px solid blue;
+}
+
+.borderOrange {
+  border: 2px solid orange;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: var(--greenish);
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px var(--darkBlue);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0c6657;
+  text-shadow: 0 1px var(--darkBlue);
+  color: white;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: var(--darkBlue);
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+  border: 1px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.element-item {
+  position: relative;
+  width: 300px;
+  height: 420px;;
+  overflow: hidden;
+  border-radius: 8px;
+  /* background-color: var(--darkBlue); */
+  border: 1px solid var(--greenish);
+  margin: 3px;
+}
+
+.imageDiv {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.imageDiv img {
+  width: 300px;
+  height: 200px;
+  transition: transform 0.5s ease;
+}
+
+.imageDiv:hover img{
+  transform: scale(1.1);
+  filter: brightness(110%);
+}
+
+.element-item:hover {
+  cursor: pointer,
+}
+
+.element-item:hover {
+  border: 2px solid var(--darkBlue);
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 333px;
+  text-align: center;
+  color: var(--darkBlue);
+  border-radius: 5px;
+  padding: 2px;
+  border: 1px solid var(--darkBlue);
+  width: 250px;
+  position: absolute;
+  left: 25px;
+  top: 180px;
+  height: 40px;
+  font-family: 'Gentium Basic', serif;
+
+}
+
+.title:hover {
+  background-color: var(--greenish);
+  color: white;
+}
+
+
+.description {
+  position: absolute;
+  margin-top: 60px;
+  color: var(--darkBlue);
+  text-align: justify;
+  padding:4px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 20px;
+  font-family: 'Marvel', sans-serif;
+
+}
+
+.technologies {
+  color: white;
+  text-shadow: 1px solid gold;
+  margin-top: 150px;
+  display: inline-flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.technologies > * {
+  padding: 1px;
+  background: var(--greenish);
+  display: flex;
+  border: 1px solid var(--darkBlue);
+  flex-wrap: wrap;
+  border-radius: 5px;
+  margin: auto 3px;
+  margin-bottom: 5px;
+}
+
+.noborder {
+  border: none;
+}
+
+/* ---- .element-item ---- */
+
+
+
+
+/* .element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
+.element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
+.element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
+.element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
+.element-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
+.element-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
+.element-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
+.element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
+.element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
+.element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); } */

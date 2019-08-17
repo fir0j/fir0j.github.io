@@ -1,21 +1,718 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Gradient Generator</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body id="gradient">
-  <h1>Background Generator</h1>
+<html lang="en" dir="ltr">
 
-  <input type="color" class="color1" name="color1" value="#ff0000">
-  <input type="color" class="color2" name="color2" value="#0000ff">
+  <head>
+    <meta charset="utf-8">
+      <title>Firoj Resume</title>
+      <link rel="stylesheet" type="text/css" href="./styles/index.css">
+      <link rel="stylesheet" type="text/css" href="./styles/leftContainer.css">
+      <link rel="stylesheet" type="text/css" href="./styles/title.css">
+      <link rel="stylesheet" type="text/css" href="./styles/timeline.css">
+      <link rel="stylesheet" type="text/css" href="./styles/isotope.css">
+      <link rel="stylesheet" type="text/css" href="./styles/rightContainer.css">
+      <link rel="stylesheet" type="text/css" href="./styles/photo.css">
+      <link rel="stylesheet" type="text/css" href="./styles/about.css">
+      <link rel="stylesheet" type="text/css" href="./styles/personalSkills.css">
+      <link rel="stylesheet" type="text/css" href="./styles/language.css">
+      <link rel="stylesheet" type="text/css" href="./styles/mooc.css">
+      <link rel="stylesheet" type="text/css" href="./styles/hobbies.css">
+      <link rel="stylesheet" type="text/css" href="./styles/academic.css">
 
-  <button id="random">Random Background</button>
-  <h2>Current CSS Background</h2>
-  <h3></h3>
+      <link href="https://fonts.googleapis.com/css?family=Gentium+Basic:400i|Marvel|PT+Sans+Narrow|Slabo+27px&display=swap" rel="stylesheet">
 
 
-  <script type="text/javascript" src="script.js"></script>
-</body>
+
+  </head>
+
+  <body>
+
+    <div class = "mainContainer nearWhite  switchView"  >
+
+          <div class = 'wrapper leftContainer TopBottommargin LCmargin white'>
+              <div class = 'wrapper SectionMargin'>
+                <div class = 'flexBlock'>
+
+                    <div class = 'center titleBorderLines titlefont'>
+                    Firoj Siddiki
+                    </div>
+
+                    <div class = 'center fresherFont fresherMaginTop'> Fresher
+                    </div>
+
+                  </div>
+                </div>
+              <!-- title ends -->
+
+              <div class = 'wrapper SectionMargin'>
+                <div class = 'flexBlock'>
+
+                  <div class = 'flexInline'>
+                    <div class = 'rectangle'>
+                    </div>
+                    <h4 class = 'subHeading'> Career Objective</h4>
+                  </div>
+
+                  <div class = 'headingContent'>
+                    To secure a challenging position in a reputable organization which can utilize my learnings, knowledge, and skills while contributing for the company's growth and in turn ensuring personal growth too
+                  </div>
+                </div>
+              </div>
+              <!-- end of career objective -->
+
+              <div class = 'wrapper SectionMargin'>
+                <div class = 'flexBlock'>
+
+                  <div class = 'flexInline'>
+                    <div class = 'rectangle'>
+                    </div>
+                    <h4 class = 'subHeading'> Academic Background</h4>
+                  </div>
+
+                      <div class = 'headingContent'>
+
+                        <div class = 'flexInline wrapper'>
+
+                          <div class = 'timelineContainer'>
+
+                              <div class = 'flexInline circle_container'>
+                                <div class = 'circle center '>
+                                </div>
+                              </div>
+
+                              <div class = 'line_container flexInline '>
+                                <div class = 'line center'>
+                                </div>
+                              </div>
+
+                              <div class = 'circle_container flexInline'>
+                                <div class = 'flexInline circle center '>
+                                </div>
+                              </div>
+
+                              <div class = 'line_container flexInline '>
+                                <div class = 'line center'>
+                                </div>
+                              </div>
+
+                              <div class = 'circle_container flexInline'>
+                                <div class = 'flexInline circle center'>
+                                </div>
+                                </div>
+                          </div>
+
+                           <!-- end of timeline -->
+
+                          <div class = 'wrapper contentFont flexBlock dummyTimelineClass'>
+                            <div class = '' >
+                              <p class = 'primarySize'>
+                                Computer Science & Engineering / 2016 -2020 </p>
+                              <p class = 'secondarySize'>
+                                CMR Institute of Technology, Bangalore
+                              </p>
+                              <p class = 'ternarySize'>
+                              CGPA: 6.28 (till 6th Sem)
+                              </p>
+                            </div>
+
+                            <div class = 'intermediate'>
+                              <p class = 'primarySize'>
+                                Intermediate / 2013-2015
+                              </p>
+                              <p class = 'secondarySize'>
+                                Little Angels’ College, Kathmandu, Nepal</p>
+                              <p class = 'ternarySize'>
+                                Result : 59.30%
+                              </p>
+                            </div>
+
+                            <div class = 'matriculation'>
+                              <p class = 'primarySize'>
+                                Matriculation / 2013
+                              </p>
+                              <p class = 'secondarySize'>
+                                Sayapatri English Higher Sec. School,Nepal
+                              </p>
+                              <p class = 'ternarySize'>
+                                Result : 79.90%
+                              </p>
+                            </div>
+
+                          </div>
+                            <!-- end of timeline content -->
+
+                        </div>
+                          <!-- end of flexinline wrapper-->
+
+                      </div>
+                        <!-- end of heading content timeline container -->
+
+                  </div>
+                    <!-- end of  academic container -->
+
+              </div>
+              <!-- end of ACADEMIC wrapper-->
+
+              <div class = 'wrapper SectionMargin'>
+
+                <div class = 'flexInline'>
+                  <div class = 'rectangle'>
+                  </div>
+                  <h4 class = 'subHeading'> Projects and Technologies</h4>
+                </div>
+
+                <div id="filters" class="button-group center TopBottommargin">
+                  <button class="button is-checked" data-filter="*">Show all</button>
+                  <button class="button" data-filter=".web">Web Development</button>
+                  <button class="button" data-filter=".android">Android Development</button>
+                  <button class="button" data-filter=".programs">Programs & Scripts</button>
+                </div>
+
+                <div class="grid noborder">
+
+                    <div class="wrapper element-item web" data-category = "web">
+                      <a href="https://www.w3schools.com/html/" target="_blank">
+                          <div class="imageDiv htmlcss">
+                          <img src="./cardImages/faceDetection.jpg" alt="Project DP" />
+                          </div>
+                          <p class="title javascript">Face Dectection App</p>
+                          <div class="description react">
+                            Provided the link of an image, it can detect human face on that image.The app has use clarifai face detection API
+                          </div>
+
+                          <div class="technologies reactredux">
+                            <div class="htmlcss"> HTML & CSS </div>
+                            <div class=" javascript"> Javascript</div>
+                            <div class="react"> React </div>
+                            <div class="postgresql"> PosgreSQL </div>
+                            <div class="api"> API </div>
+                          </div>
+                      </a>
+                    </div>
+
+                    <div class="wrapper element-item web" data-category = "web">
+                      <a href="https://www.w3schools.com/html/" target="_blank">
+                          <div class="imageDiv htmlcss">
+                          <img src="./cardImages/faceDetection.jpg" alt="Project DP" />
+                          </div>
+                          <p class="title javascript">Background Generator</p>
+                          <div class="description react">
+                            Provided the link of an image, it can detect human face on that image.The app has use clarifai face detection API
+                          </div>
+
+                          <div class="technologies reactredux">
+                            <div class="htmlcss"> HTML & CSS </div>
+                            <div class=" javascript"> Javascript</div>
+                          </div>
+                      </a>
+                    </div>
+
+                    <div class="element-item android" data-category = "android">
+                      <a href="https://www.w3schools.com/html/" target="_blank">
+                          <div class="imageDiv">
+                          <img src="./cardImages/faceDetection.jpg" alt="Project DP" />
+                          </div>
+                          <p class="title">Train TMS</p>
+                          <div class="description">
+                            Provided the link of an image, it can detect human face on that image.The app has use clarifai face detection API
+                          </div>
+
+                          <div class="technologies">
+                            <div class="java"> JAVA </div>
+                          </div>
+                      </a>
+                    </div>
+
+                    <div class="element-item android" data-category = "android">
+                      <a href="https://www.w3schools.com/html/" target="_blank">
+                          <div class="imageDiv">
+                          <img src="./cardImages/faceDetection.jpg" alt="Project DP" />
+                          </div>
+                          <p class="title">Weather App</p>
+                          <div class="description">
+                            Provided the link of an image, it can detect human face on that image.The app has use clarifai face detection API
+                          </div>
+
+                          <div class="technologies">
+                            <div class="java"> JAVA </div>
+                            <div class="java api"> API </div>
+                          </div>
+                      </a>
+                    </div>
+
+                    <div class="element-item android" data-category = "android">
+                      <a href="https://www.w3schools.com/html/" target="_blank">
+                          <div class="imageDiv">
+                          <img src="./cardImages/faceDetection.jpg" alt="Project DP" />
+                          </div>
+                          <p class="title">Play Piano</p>
+                          <div class="description">
+                            Provided the link of an image, it can detect human face on that image.The app has use clarifai face detection API
+                          </div>
+
+                          <div class="technologies">
+                            <div class="java"> JAVA </div>
+                            <div class="java"> sound Pool </div>
+                          </div>
+                      </a>
+                    </div>
+
+                    <div class="element-item programs" data-category = "programs">
+                      <a href="https://www.w3schools.com/html/" target="_blank">
+                          <div class="imageDiv">
+                          <img src="./cardImages/faceDetection.jpg" alt="Project DP" />
+                          </div>
+                          <p class="title">Vulnerability Scanner</p>
+                          <div class="description">
+                            Provided the link of an image, it can detect human face on that image.The app has use clarifai face detection API
+                          </div>
+
+                          <div class="technologies">
+                            <div class="java"> Python </div>
+                          </div>
+                      </a>
+                    </div>
+
+
+
+                </div>
+
+              </div>
+              <!-- end of isotope -->
+
+          </div>
+          <!-- end of left container -->
+
+
+
+          <div class = 'wrapper rightContainer TopBottommargin  RCmargin greenish'>
+
+              <div class = 'photoBox SectionMargin'>
+
+                <div class = 'wrapper dummyPhotoClass center'>
+                  <img src='./icons/dp.jpg' alt='ResumePic' class = '' />
+                </div>
+
+              </div>
+              <!-- end of photo -->
+
+              <div class = 'wrapper SectionMargin'>
+
+                <div class = 'contentFont icons'>
+
+                    <h2 class = 'indentLeftHeading'>About</h2>
+
+                    <div class = 'dob indentLeftContent divMargin'>
+                      <p>Date of Birth: January 18, 1997</p>
+                    </div>
+
+                    <div class = 'age indentLeftContent divMargin'>
+                        <p>Age: 22</p>
+                    </div>
+
+                    <div class = 'gender indentLeftContent divMargin'>
+                      <p>Gender: Male</p>
+                    </div>
+
+                    <div class = 'birthPlace indentLeftContent'>
+                      <p>
+                      Birth Place: Nawalparasi,Nepal
+                      </p>
+                    </div>
+
+                    <div class = 'contact flexInline'>
+                      <img src= './icons/contact.png' alt = 'Contact_icon_unavailable' class = 'center'/>
+                      <p class = 'indentLeftContent'> 8971871826 </p>
+                    </div>
+
+                    <div class = 'address flexInline'>
+                      <img src= './icons/address.png' alt = 'address_icon_unavailable' class = 'center'/>
+                      <p class = 'indentLeftContent'> Kundalahalli, Bangalore, 560037 </p>
+                    </div>
+
+                    <div class = 'email flexInline'>
+                      <img src= './icons/email.png' alt = 'Email_icon_unavailable' class = 'center' />
+                      <p class = 'indentLeftContent'>
+                      firoj.is.available
+                      @gmail.com
+                      </p>
+                    </div>
+
+
+                </div>
+
+              </div>
+              <!-- end of about -->
+
+              <div class = 'wrapper SectionMargin'>
+
+                <div class = 'contentFont centerPoints wrapper'>
+                    <h2 class = 'indentLeftHeading'>Personal Skills</h2>
+                      <div class = 'flexInline wrapRatings'>
+                          <p class = 'indentLeftContent'> Creativity</p>
+
+                        <div class = 'creativiy flexInline'>
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center'>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center transparentPoint'>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                  <!-- end 0f Creativity -->
+
+                      <div class = 'flexInline wrapRatings'>
+                        <p class = 'indentLeftContent'>Honesty</p>
+
+                        <div class = 'flexInline honesty'>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center'>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center'>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    <!-- end of Honesty -->
+                      <div class = 'flexInline wrapRatings'>
+                        <p class ='indentLeftContent'>Communication</p>
+
+                        <div class = 'flexInline communication'>
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center'>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center '>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center '>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center '>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center transparentPoint'>
+                              </div>
+                            </div>
+                        </div>
+
+                      </div>
+
+                       <!-- end of Communication -->
+
+                      <div class = 'flexInline wrapRatings'>
+                        <p class = 'indentLeftContent'>Positive Attitude
+                        </p>
+
+                        <div class = ' flexInline positive'>
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center'>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center '>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center '>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center '>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center transparentpoint'>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                  <!-- end of Postive Attitude -->
+
+                      <div class = 'flexInline wrapRatings'>
+                        <p class = 'indentLeftContent'>
+                        Decision Making
+                        </p>
+
+                        <div class = 'flexInline decision'>
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center'>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center '>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center '>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center '>
+                              </div>
+                            </div>
+
+                            <div class = 'flexInline point_container'>
+                              <div class = 'point center transparentPoint'>
+                              </div>
+                            </div>
+                        </div>
+
+                      </div>
+                    <!-- end of Decision making -->
+
+                </div>
+
+              </div>
+              <!-- end of personal skills -->
+
+              <div class = 'wrapper SectionMargin'>
+
+                <div class = 'wrapper contentFont centerPoints'>
+                    <h2 class = 'indentLeftHeading'>Language </h2>
+                      <div class = 'flexInline indentIconDiv wrapRatings'>
+                        <p class = 'indentLeftContent'> English</p>
+
+                        <div class = 'creativiy flexInline'>
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center'>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center transparentPoint'>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <!-- end 0f English -->
+
+                      <div class = 'flexInline indentIconDiv wrapRatings'>
+                        <p class = 'indentLeftContent'> Hindi</p>
+
+                        <div class = 'creativiy flexInline'>
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center'>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center'>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                        <!-- end 0f Hindi -->
+
+                      <div class = 'flexInline indentIconDiv wrapRatings'>
+                        <p class = 'indentLeftContent'> Nepali</p>
+
+                        <div class = 'creativiy flexInline'>
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center'>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center '>
+                            </div>
+                          </div>
+
+                          <div class = 'flexInline point_container'>
+                            <div class = 'point center'>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                <!-- end 0f Nepali -->
+                </div>
+
+              </div>
+              <!-- end of language -->
+
+              <div class = 'wrapper SectionMargin'>
+
+                <div class = 'wrapper contentFont icons'>
+                    <h2 class = 'indentLeftHeading'>Online Certifications </h2>
+
+                    <div class = 'contact flexInline indentIconDivs '>
+                      <img src= './icons/arrow.png' alt = 'Contact_icon_unavailable' class = 'center'/>
+                      <p class = 'indentLeftContent'> Full Stack Web Developer</p>
+                    </div>
+
+                    <div class = 'contact flexInline indentIconDivs'>
+                      <img src= './icons/arrow.png' alt = 'Contact_icon_unavailable' class = 'center'/>
+                      <p class = 'indentLeftContent'> Ethical Hacking Career Accelerator</p>
+                    </div>
+
+                    <div class = 'contact flexInline indentIconDivs'>
+                      <img src= './icons/arrow.png' alt = 'Contact_icon_unavailable' class = 'center'/>
+                      <p class = 'indentLeftContent'> Master Ethical Hacking with Python</p>
+                    </div>
+
+                    <div class = 'contact flexInline indentIconDivs'>
+                      <img src= './icons/arrow.png' alt = 'Contact_icon_unavailable' class = 'center'/>
+                      <p class = 'indentLeftContent'> Android App Development</p>
+                    </div>
+
+
+                </div>
+
+
+              </div>
+              <!-- end of mooc -->
+
+              <div class = 'wrapper SectionMargin'>
+
+                <div class = 'wrapper contentFont icons'>
+                    <h2 class = 'indentLeftHeading'>Hobbies</h2>
+
+                    <div class = 'contact flexInline indentIconDivs'>
+                      <img src= './icons/gym.png' alt = 'Contact_icon_unavailable' class = 'center'/>
+                      <p class = ''> Gym </p>
+                    </div>
+
+                    <div class = 'address flexInline indentIconDivs '>
+                      <img src= './icons/reading.png' alt = 'address_icon_unavailable' class = 'center'/>
+                      <p class = ''> Reading </p>
+                    </div>
+
+                    <div class = 'address flexInline indentIconDivs '>
+                      <img src= './icons/travelling.png' alt = {'address_icon_unavailable'} class = 'center'/>
+                      <p class = ''> Travelling </p>
+                    </div>
+
+                    <div class = 'address flexInline indentIconDivs '>
+                      <img src= './icons/stock.png' alt = 'address_icon_unavailable' class = 'center'/>
+                      <p class = ''> StockMarket </p>
+                    </div>
+
+                    <div class = 'address flexInline indentIconDivs '>
+                      <img src= './icons/github.png' alt = 'address_icon_unavailable' class = 'center'/>
+                      <p class = ''> https://github.com/fir0j </p>
+                    </div>
+
+
+                </div>
+
+              </div>
+              <!-- end of hobbies -->
+
+          </div>
+          <!-- end of right container -->
+
+      </div>
+      <!-- end of wrapper -->
+
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="./isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="./script.js"></script>
+
+  </body>
 </html>

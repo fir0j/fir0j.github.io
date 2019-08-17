@@ -1,0 +1,44 @@
+/* title css */
+.width100{
+  width:100%;
+}
+
+.titlefont {
+  font-family: 'Slabo 27px', serif;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  position: relative;
+  color: #00344e;
+  font-weight: bolder;
+}
+
+.titleBorderLines {
+  position: relative;
+  border-top: 4px solid #0fb9b1;
+  border-bottom: 4px solid #0fb9b1;
+  padding: 10px 0px;
+  margin: 0 8%;
+}
+
+.fresherFont {
+  font-family: monospace;
+  font-weight: 400;
+  font-size:1.5rem
+}
+
+.fresherMagin {
+  padding-top:0px;
+  margin: 0px 10%;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+   .titlefont {
+      font-size: 2rem;
+   }
+   .fresherFont {
+     font-size: 1em;
+   }
+
+}

@@ -1,0 +1,86 @@
+/* timeline css */
+.intermediate {
+  margin-top: 10%;
+}
+
+.matriculation {
+  margin-top: 10%;
+}
+
+
+div.dummyTimelineClass  p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.timelineContainer {
+  width: 50px;
+}
+
+.circle_container {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+
+}
+
+.circle {
+  background-color: var(--darkBlue) ;
+  display: flex;
+  position: relative;
+  width: 60%;
+  height: 60%;
+  border: 3px solid var(--darkBlue);
+  border-radius: 100px;
+  margin: auto;
+
+}
+
+.line_container {
+  width: 40px;
+  height: 100px;
+  margin-top: 10px;
+
+}
+
+.myline {
+  border-color: var(--darkBlue);
+}
+
+.line {
+  background-color: var(--darkBlue);
+  display: flex;
+  position: relative;
+  width: 15%;
+  height: 150%;
+  border-radius: 1000px;
+  margin-top: -10px;
+  margin-left: 18px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .intermediate {
+    margin-top: 20%;
+  }
+
+  .matriculation {
+    margin-top: 18%;
+  }
+
+}
+
+@media only screen and (max-width: 960px) {
+
+  .intermediate {
+    margin-top: 18%;
+  }
+
+  .matriculation {
+    margin-top: 15%;
+  }
+
+}

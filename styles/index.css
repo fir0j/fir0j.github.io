@@ -1,0 +1,226 @@
+body {
+  margin: auto 0;
+  font-size: 19px;
+}
+.mainContainer {
+  height: auto;
+  width: auto;
+  overflow:hidden;
+
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+}
+
+.seeOverflow {
+  overflow: visible;
+}
+
+.seeOverflowY {
+  overflow-y: visible;
+}
+
+.seeOverflowX {
+  overflow-x: visible;
+}
+
+
+:root {
+  --greenish: #0fb9b1;
+  --darkBlue: #00344e;
+}
+
+
+/* centres divs and its contents */
+.center {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.outline {
+  outline: 3px solid red;
+}
+
+.borderGreen {
+  border: 2px solid green;
+}
+
+.borderBlue {
+  border: 2px solid blue;
+}
+
+.borderOrange {
+  border: 2px solid orange;
+}
+
+.flexBlock {
+  display: block;
+}
+
+.flexInline {
+  display: flex;
+}
+
+.switchView {
+  display: flex;
+}
+
+.leftDivsWidth {
+  width: 95%;
+}
+
+.contentFont {
+  font-family: 'Gentium Basic', serif;
+}
+
+.primarySize {
+  font-size: 20px;
+}
+
+.secondarySize {
+  font-size: 18px;
+}
+
+.ternarySize {
+  font-size: 16px;
+}
+
+.SectionMargin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* containers css */
+
+.TopBottommargin {
+  margin-top: 10px;
+  margin-bottom:10px;
+
+}
+
+.LCmargin {
+  margin-left: 15%;
+}
+
+.RCmargin {
+  margin-right: 15%;
+}
+
+
+/* background color css */
+
+.darkBlue{
+  background-color: var(--darkBlue);
+}
+
+.greenish {
+  background-color: var(--greenish);
+}
+
+.nearWhite {
+  background-color: #F6F6F6;
+}
+
+.richBlack {
+  background-color: #212424;
+}
+
+.white {
+  background-color: white;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+
+}
+
+.pink {
+  background-color: pink;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.rectangle {
+  position: relative;
+
+  /* making mannual responsive without using media querry
+  min-width: 2%
+  width:5%
+  max-width:8%
+   */
+  width: 5%;
+
+  height: 25px;
+  background-color: var(--greenish);
+  display: flex;
+  align-items: flex-end;
+  align-self: flex-end;
+  margin-bottom: 5px;
+}
+
+.subHeading {
+  margin-left: 3%;
+  font-family: font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 4px;
+}
+
+.headingContent {
+  text-align:justify;
+  margin-left: 10%;
+  margin-right: 4%;
+  justify-content: flex-start;
+  font-family: 'Gentium Basic', serif;
+  font-size: 22px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .LCmargin {
+    margin-left:0;
+  }
+
+  .RCmargin {
+    margin-right:0;
+  }
+
+  .switchView{
+    display: block;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* laptop half screen (landscape tablets, 768px and up) */
+@media only screen and (max-width: 960px) {
+
+  .LCmargin {
+    margin-left:0;
+  }
+
+  .RCmargin {
+    margin-right:0;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

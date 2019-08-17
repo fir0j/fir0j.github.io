@@ -1,0 +1,46 @@
+.indentLeftHeading {
+  margin-left: 8%;
+}
+
+.indentLeftContent {
+  margin-left: 16%;
+}
+
+div.contact p {
+  margin-left: 10%;
+}
+
+div.email p {
+  margin-left: 8%;
+}
+
+div.address p {
+  margin-left: 7%;
+}
+
+div.icons img {
+  margin-left: 13%;
+}
+
+
+div.contact img {
+  width: 8%;
+  height: 8%;
+  display: flex;
+  align-self: center;
+}
+
+div.address img {
+  width: 13%;
+  height: 12%;
+  margin-left: 11%;
+}
+
+div.email img {
+  width: 11%;
+  height: 11%;
+}
+
+.indentIconDivs {
+  margin-bottom: 10px;
+}

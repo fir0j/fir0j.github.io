@@ -1,0 +1,14 @@
+.photoBox {
+  height: 300px;
+  width:100%;
+}
+
+div.dummyPhotoClass img{
+
+  position: relative;
+  border: 4px solid white;
+  border-radius: 200px;
+  border-width: thick;
+  max-width: 100%;
+  height: 95%;
+}
