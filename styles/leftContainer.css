@@ -9,9 +9,9 @@
 }
 
 @media only screen and (max-width: 600px) {
- /* .leftContainer {
+ .leftContainer {
    width: 100%;
- } */
+ }
 
  .TopBottommargin {
    margin-top: 0px;
