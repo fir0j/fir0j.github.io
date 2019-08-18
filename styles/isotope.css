@@ -162,7 +162,8 @@ body {
 .description {
   position: absolute;
   margin-top: 60px;
-  color: var(--darkBlue);
+  color: black;
+  text-shadow: 1px solid var(--darkBlue);
   text-align: justify;
   padding:4px;
   margin-left: 2px;
@@ -179,6 +180,7 @@ body {
   display: inline-flex;
   position: absolute;
   bottom: 0;
+  font-size: 17px;
 }
 
 .technologies > * {

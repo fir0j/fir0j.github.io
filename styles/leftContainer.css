@@ -1,4 +1,4 @@
-.leftContainer {
+.leftContainer2 {
   height: 100%;
   width: 70%;
   /* flex layout */
@@ -8,14 +8,25 @@
   flex-wrap: wrap;
 }
 
+.leftContainer {
+  height: 100%;
+  width: 70%;
+  margin-top: 100px;
+  /* flex layout */
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
 @media only screen and (max-width: 600px) {
  .leftContainer {
    width: 100%;
  }
 
  .TopBottommargin {
-   margin-top: 0px;
-   margin-bottom:0px;
+   margin-top: 100px;
 
  }
 

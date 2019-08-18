@@ -1,12 +1,22 @@
-.rightContainer {
+.rightContainer2 {
   height: 100%;
   width: 30%;
-
   /* flex layout */
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: flex-start;
+}
+
+.rightContainer {
+  height: 100%;
+  width: 30%;
+  /* flex layout */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 0.05%;
 }
 
 @media only screen and (max-width: 600px) {
