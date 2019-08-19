@@ -100,21 +100,26 @@ body {
 .element-item {
   position: relative;
   width: 300px;
-  height: 500px;;
+  height: 500px;
   overflow: hidden;
   border-radius: 8px;
-  /* background-color: var(--darkBlue); */
   border: 1px solid var(--greenish);
-  margin: 3px;
+  margin: 5px;
   display: flex;
   justify-content: center;
+  /* background-color: #d1fcff; */
+
 }
 
 .imageDiv {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 280px;
+  height: 180px;
+  top: 10px;
   overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid var(--greenish);
+  box-shadow: 2px 1.5px 2px 0 var(--darkBlue);
 }
 
 .imageDiv img {
@@ -124,12 +129,15 @@ body {
 }
 
 .imageDiv:hover img{
+  border-radius: 10px;
   transform: scale(1.1);
   filter: brightness(110%);
 }
 
 .element-item:hover {
-  cursor: pointer,
+  cursor: pointer;
+  box-shadow: 2px 1.5px 2px 0 var(--greenish);
+  /* background-color: #d1fcff; */
 }
 
 .element-item:hover {
@@ -150,26 +158,28 @@ body {
   top: 180px;
   height: 40px;
   font-family: 'Gentium Basic', serif;
-
-}
-
-.title:hover {
   background-color: var(--greenish);
   color: white;
+
 }
 
 
 .description {
   position: absolute;
-  margin-top: 60px;
+  margin-top: 75px;
   color: black;
   text-shadow: 1px solid var(--darkBlue);
   text-align: justify;
   padding:4px;
   margin-left: 2px;
   margin-right: 2px;
-  font-size: 20px;
+  font-size: 19px;
   font-family: 'Marvel', sans-serif;
+
+}
+
+.description:hover {
+  /* text-shadow: 1px 1px 2px var(--greenish), 0 0 1em var(--darkBlue), 0 0 0.2em var(--greenish); */
 
 }
 
@@ -185,7 +195,7 @@ body {
   display: inline-flex;
   position: absolute;
   bottom: 0;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .technologies > * {
@@ -195,7 +205,7 @@ body {
   border: 1px solid var(--darkBlue);
   flex-wrap: wrap;
   border-radius: 5px;
-  margin: auto 3px;
+  margin: auto 2px;
   margin-bottom: 5px;
 }
 
