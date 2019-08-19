@@ -100,7 +100,7 @@ body {
 .element-item {
   position: relative;
   width: 300px;
-  height: 420px;;
+  height: 500px;;
   overflow: hidden;
   border-radius: 8px;
   /* background-color: var(--darkBlue); */
@@ -171,6 +171,11 @@ body {
   font-size: 20px;
   font-family: 'Marvel', sans-serif;
 
+}
+
+.description > ul {
+  margin-top: -10px;
+  padding-left: 3px;
 }
 
 .technologies {
