@@ -58,16 +58,24 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-// jquery easypiechart plugin
-$('.chart').easyPieChart({
-            //your options goes here
-            easing: 'easeInOut',
-            barColor: '#00344e',
-            // trackColor: false,
-            scaleColor: false,
-            lineWidth: 4,
-            size: 152,
-            onStep: function(from, to, percent) {
-              $(this.el).find('.percent').text(Math.round(percent));
-            }
-        });
+
+var skillsTopOffset = $(".technicalSkills").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+  if(window.pageYOffset > skillsTopOffset-$(window).height()+200){
+    // jquery easypiechart plugin
+    $('.chart').easyPieChart({
+                //your options goes here
+                easing: 'easeInOut',
+                barColor: '#00344e',
+                // trackColor: false,
+                scaleColor: false,
+                lineWidth: 4,
+                size: 152,
+                onStep: function(from, to, percent) {
+                  $(this.el).find('.percent').text(Math.round(percent));
+                }
+            });
+  }
+});
