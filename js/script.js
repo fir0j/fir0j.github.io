@@ -39,3 +39,35 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('is-checked');
   });
 });
+
+//owl carousel plugin
+
+$('.owl-carousel').owlCarousel({
+    loop:false,
+    items:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        480:{
+            items:3
+        },
+        968:{
+            items:4
+        }
+    }
+})
+
+// jquery easypiechart plugin
+$('.chart').easyPieChart({
+            //your options goes here
+            easing: 'easeInOut',
+            barColor: '#00344e',
+            // trackColor: false,
+            scaleColor: false,
+            lineWidth: 4,
+            size: 152,
+            onStep: function(from, to, percent) {
+              $(this.el).find('.percent').text(Math.round(percent));
+            }
+        });
