@@ -228,6 +228,76 @@ body {
   text-shadow: 1px solid gray;
 }
 
+/* statistics css */
+
+.statistics {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
+  justify-content: center;
+}
+
+.statistics > h2 {
+  margin-bottom: 40px;
+}
+
+.squareItem {
+  position:relative;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.innerSquare {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  border: 2px solid #444;
+  border-top: none;
+  margin:0 auto;
+}
+
+.innerSquare:before,
+.innerSquare:after {
+  content: '';
+  top:0px;
+  position: absolute;
+  width: 30%;
+  border-bottom: 2px solid #444;
+
+}
+
+.innerSquare::before {
+  left:0;
+}
+
+.innerSquare:after{
+  right:0;
+}
+
+.squareContent {
+  position: relative;
+  margin-top: 25px;
+}
+
+.squareContent h2 {
+  font-size: 65px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.squareContent h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.innerSquare i {
+  font-size: 50px;
+  margin-top: -20px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
