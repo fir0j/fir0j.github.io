@@ -78,4 +78,14 @@ $(window).scroll(function(){
                 }
             });
   }
+
 });
+
+// jquery.countup.js and jquery.waypoints.js
+
+jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
