@@ -89,3 +89,20 @@ jQuery(document).ready(function($) {
                 time: 1000
             });
         });
+
+
+// superslides
+
+// var windowHeight = $(window).height();
+// var headerHeight = $("header").outerHeight();
+// var calculatedHeight = windowHeight - headerHeight;
+// var heightFill = $('#slides')
+// $(heightFill).height(calculatedHeight);
+// // activating slider
+// $(document).ready(function(){
+//   $('#slides').superslides({
+//     inherit_height_from: '#slides',
+//     animation: 'fade',
+//     play:5000
+//   });
+// });
