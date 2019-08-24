@@ -265,6 +265,7 @@ body {
     width: 98%;
     display: block;
     justify-content: center;
+    margin-left: 1%;
   }
 
   .element-item2 {
@@ -281,7 +282,7 @@ body {
   }
 
   .button-group{
-    width:90%;
+    width:92%;
     margin-left: 5%;
 
   }
