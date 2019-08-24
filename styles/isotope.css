@@ -256,109 +256,18 @@ body {
   color: var(--greenish);
 }
 
-/* end of card css */
-
-/* .imageDiv img {
-  width: 300px;
-  height: 200px;
-  transition: transform 0.5s ease;
-}
-
-.imageDiv:hover img{
-  border-radius: 10px;
-  transform: scale(1.1);
-  filter: brightness(110%);
-} */
-
-/* .element-item:hover {
-  cursor: pointer;
-  box-shadow: 2px 1.5px 2px 0 var(--greenish);
-  border: 2px solid var(--darkBlue);
-} */
-
-
-/* .title {
-  font-size: 22px;
-  font-weight: 333px;
-  text-align: center;
-  color: var(--darkBlue);
-  border-radius: 5px;
-  padding: 2px;
-  border: 1px solid var(--darkBlue);
-  width: 250px;
-  position: absolute;
-  left: 25px;
-  top: 180px;
-  height: 40px;
-  font-family: 'Gentium Basic', serif;
-  background-color: var(--greenish);
-  color: white;
-
-}
-
-
-.description {
-  position: absolute;
-  margin-top: 75px;
-  color: black;
-  text-shadow: 1px solid var(--darkBlue);
-  text-align: justify;
-  padding:4px;
-  margin-left: 2px;
-  margin-right: 2px;
-  font-size: 19px;
-  font-family: 'Gentium Basic', serif;
-
-}
-
-.description:hover {
-  /* text-shadow: 1px 1px 2px var(--greenish), 0 0 1em var(--darkBlue), 0 0 0.2em var(--greenish); */
-
-}
-
-/* .description > ul {
-  margin-top: -10px;
-  padding-left: 3px;
-}
-
-.technologies {
-  color: white;
-  text-shadow: 1px solid gold;
-  margin-top: 150px;
-  display: inline-flex;
-  position: absolute;
-  bottom: 0;
-  font-size: 16px;
-}
-
-.technologies > * {
-  padding: 1px;
-  background: var(--greenish);
-  display: flex;
-  border: 1px solid var(--darkBlue);
-  flex-wrap: wrap;
-  border-radius: 5px;
-  margin: auto 2px;
-  margin-bottom: 5px;
-}
-
-
- */
-
-
-/* ---- .element-item ---- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
 
-  .element-item2 {
+  .element-item {
     width: 98%;
-    display: flex;
+    display: block;
     justify-content: center;
   }
 
-  .element-item {
+  .element-item2 {
     margin-left: 7%;
   }
 
@@ -372,7 +281,7 @@ body {
   }
 
   .button-group{
-    width:90%;
+    width:80%;
     margin-left: 5%;
 
   }
