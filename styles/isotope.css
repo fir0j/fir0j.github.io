@@ -106,12 +106,13 @@ body {
 .element-item {
   position: relative;
   width: 300px;
-  height: 470px;
+  height: 455px;
   position: absolute;
   border-bottom: 20px solid var(--greenish);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin: 5px 3px 5px 8px;
+  text-align: justify;
 }
 
 .element-item h2 {
