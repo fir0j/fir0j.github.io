@@ -69,7 +69,7 @@ $(window).scroll(function(){
                 //your options goes here
                 easing: 'easeInOut',
                 barColor: '#00344e',
-                // trackColor: false,
+                // trackColor: '#EE5A24',
                 scaleColor: false,
                 lineWidth: 4,
                 size: 152,
@@ -91,7 +91,7 @@ jQuery(document).ready(function($) {
         });
 
 
-const element = document.querySelector(".js-tilt");
+        const element = document.querySelector(".js-tilt");
 VanillaTilt.init(element);
 element.addEventListener("tiltChange", callback);
 

@@ -97,32 +97,168 @@ body {
   clear: both;
 }
 
+.noborder {
+  border: none;
+}
+
+/* card css */
+
 .element-item {
   position: relative;
   width: 300px;
-  height: 500px;
-  overflow: hidden;
-  border-radius: 8px;
-  border: 1px solid var(--greenish);
-  margin: 5px;
+  height: 470px;
+  position: absolute;
+  border-bottom: 20px solid var(--greenish);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 5px 3px 5px 8px;
+}
+
+.element-item h2 {
+  color: var(--darkBlue);
+  background: var(--greenish);
+  height: 70px;
+  padding: 10px 20px;
+  font-size:20px;
+  font-weight: 700px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 0;
   display: flex;
+  align-items: center;
   justify-content: center;
-  /* background-color: #d1fcff; */
-
 }
 
-.imageDiv {
+
+.element-item ul {
   position: relative;
-  width: 280px;
-  height: 180px;
-  top: 10px;
-  overflow: hidden;
-  border-radius: 10px;
-  border: 2px solid var(--greenish);
-  box-shadow: 2px 1.5px 2px 0 var(--darkBlue);
+  background: #fff;
+  text-align: center;
+  left: -18px;
+
 }
 
-.imageDiv img {
+.element-item ul li{
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+
+.element-item ul:hover li {
+  opacity: 0.2
+}
+
+.element-item ul li:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  background: var(--greenish);
+  box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+  color: #fff;
+  opacity: 1;
+}
+
+.element-item button {
+  background-color: var(--greenish);
+  color: white;
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+
+}
+
+.element-item button:hover {
+  background-color: var(--darkBlue);
+}
+
+.element-item h2 i {
+  padding-right:5px;
+  color: var(--darkBlue);
+  font-size: 35px;
+  text-shadow: 2px solid white;
+}
+
+
+/* .element-item ul li:last-child {
+}
+
+.element-item ul li:last-child:hover {
+  color: white;
+}
+
+.element-item ul li:last-child ul {
+  border: 1px solid var(--greenish);
+  border-radius: 3px;
+  display: table;
+  left: 1px;
+  height: auto;
+  padding: 3px;
+  margin:0 5px;
+  list-style: none;
+  text-align: center;
+  white-space: nowrap;
+  border:#0f0 solid 1px;
+}
+
+.element-item ul li:last-child:hover ul {
+  background-color: var(--darkBlue);
+
+
+} */
+
+.technologies ul {
+  border: 1px solid var(--greenish);
+  border-radius: 3px;
+  display: table;
+  left: 1px;
+  height: auto;
+  padding: 3px;
+  margin:0 5px;
+  list-style: none;
+  text-align: center;
+  white-space: nowrap;
+  border:#0f0 solid 1px;
+}
+
+.technologies:hover {
+  color: white;
+}
+
+.technologies:hover ul {
+  background-color: var(--darkBlue);
+  color: gold;
+}
+
+.element-item ul li span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background: var(--greenish);
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 600px;
+  transform: translateY(-3px);
+}
+
+.element-item ul li:hover span {
+  background-color: #fff;
+  color: var(--greenish);
+}
+
+/* end of card css */
+
+/* .imageDiv img {
   width: 300px;
   height: 200px;
   transition: transform 0.5s ease;
@@ -132,19 +268,16 @@ body {
   border-radius: 10px;
   transform: scale(1.1);
   filter: brightness(110%);
-}
+} */
 
-.element-item:hover {
+/* .element-item:hover {
   cursor: pointer;
   box-shadow: 2px 1.5px 2px 0 var(--greenish);
-  /* background-color: #d1fcff; */
-}
-
-.element-item:hover {
   border: 2px solid var(--darkBlue);
-}
+} */
 
-.title {
+
+/* .title {
   font-size: 22px;
   font-weight: 333px;
   text-align: center;
@@ -183,7 +316,7 @@ body {
 
 }
 
-.description > ul {
+/* .description > ul {
   margin-top: -10px;
   padding-left: 3px;
 }
@@ -209,10 +342,8 @@ body {
   margin-bottom: 5px;
 }
 
-.noborder {
-  border: none;
-}
 
+ */
 
 
 /* ---- .element-item ---- */
